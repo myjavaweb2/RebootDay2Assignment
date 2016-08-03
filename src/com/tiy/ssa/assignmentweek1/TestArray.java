@@ -1,13 +1,12 @@
 package com.tiy.ssa.assignmentweek1;
 
-public class BasicStuffDay2EpicMode {
-	
-//Epic Mode
-//
-//1. Make an multidimensional array of your favorite foods, albums, books, and movies
-
+public class TestArray 
+{
 	public static void main(String[] args) 
-	{		
+	{
+		int myFavoriteMovies = 2; 
+		int myFavoriteBooks = 10;
+		
 		String[][] myArrays = new String[10][10];
 		
 		myArrays[0][0] = "Rambo - First Blood";
@@ -32,11 +31,11 @@ public class BasicStuffDay2EpicMode {
 		myArrays[1][8] = "Learning PHP, MYSQL & JavaScript";
 		myArrays[1][9] = "Android Programming for Beginners";
 		
-		for (int i = 0; i < 2; i++)
+		for (int i = 0; i < myFavoriteMovies; i++)
 		{
-			for (int j = 0; j < 10; j++)
+			for (int j = 0; j < myFavoriteBooks; j++)
 			{
-				System.out.println(myArrays[i][j]);
+				System.out.print(myArrays[i][j]);
 			}
 			System.out.println();
 		}
