@@ -28,12 +28,12 @@ public class Bowling {
 				System.out.println(pinsHit);
 				scoresPerFrame += pinsHit;
 			}
-			System.out.println("This score for frame " + i + " is " + scoresPerFrame);
+			System.out.println("The score for frame " + i + " is " + scoresPerFrame);
 			
 			System.out.println();
 			totalScore += pinsHit;
 		}
-		System.out.println("This is the total score " + totalScore);
+		System.out.println("The total bowling score is " + totalScore);
 	}
 }
 
